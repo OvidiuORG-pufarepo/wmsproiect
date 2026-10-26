@@ -1,0 +1,15 @@
+.aider*
+node_modules
+dist
+.env
+coverage
+.turbo
+.DS_Store
+Thumbs.db
+*.log
+.pnpm-store
+*.db
+*.db-wal
+*.db-shm
+.vscode/*
+!.vscode/extensions.json

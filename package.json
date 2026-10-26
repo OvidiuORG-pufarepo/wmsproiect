@@ -1,0 +1,11 @@
+{
+  "name": "wms-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter @wms/api dev",
+    "dev:web": "pnpm --filter @wms/web dev",
+    "build": "pnpm --filter @wms/shared build && pnpm -r --filter !@wms/shared build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
